@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 export class ServersComponent {
   allowNesServer = false;
   serverCreationStatus = 'No server was created ! ';
-  serverName = ''; 
+  serverName = 'Testserver'; 
 
 
 
