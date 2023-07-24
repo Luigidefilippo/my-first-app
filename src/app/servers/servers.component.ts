@@ -10,6 +10,7 @@ export class ServersComponent {
   allowNesServer = false;
   serverCreationStatus = 'No server was created ! ';
   serverName = 'Testserver'; 
+  serverCreated = false; 
 
 
 
@@ -21,6 +22,7 @@ export class ServersComponent {
 
 
   onCreateServer(){
+    this.serverCreated = true ;
     this.serverCreationStatus = 'Server was created ! Name is ' + this.serverName; 
   }
   onUpdateServerName(event: Event){
