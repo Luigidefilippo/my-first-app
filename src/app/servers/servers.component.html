@@ -1,3 +1,5 @@
-<button class="btn btn-info" [disabled]="!allowNesServer">Add Server</button>
+<button class="btn btn-info" [disabled]="!allowNesServer" (click)="onCreateServer()">Add Server</button>
+<!-- <p [innerText]="allowNesServer" >{{ allowNesServer }}</p> -->
+<p>{{ serverCreationStatus  }}</p>
 <app-server></app-server>
 <app-server></app-server>
